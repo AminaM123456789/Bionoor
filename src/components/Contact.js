@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FaPhoneVolume, FaEnvelope } from 'react-icons/fa';
-import './TestCSS.css';
+import './StyleContact.css';
 
-export default function Test() {
+export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');

@@ -1,0 +1,40 @@
+body{
+    background-color: #EDE9E8;
+}
+#Container div{
+    margin:10px;
+}
+#Banniere #banniere{
+    margin-top: 50px;
+    width:100%;
+    height: 550px;
+}
+
+#titre h1{
+    margin: 30px;
+    font-size: 65px;
+    width: 1300px;
+
+}
+
+#titre p{
+    margin: 30px;
+    margin-bottom: 100px;
+    font-size: 20px;
+
+
+}
+
+img{
+    width:500;
+    height: 400px;
+}
+
+text{
+    text-align: left;
+    font-size: 20px;
+}
+
+text #text_bold{
+    font-weight: bold;
+}
