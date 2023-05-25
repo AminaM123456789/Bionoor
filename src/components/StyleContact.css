@@ -106,6 +106,29 @@ color: #8DAA94;
     flex-grow: 0;
 }
 
+@media screen  and (max-width : 480px){
+    .container2 .form-group{
+        width: 400px;
+    }
+
+    .container2 .form-group input, .container2 .form-group textarea , .container2 form > button{
+        width: 400px !important;
+    }
+    .container2 form > button {
+        padding-inline: 80px;
+    }
+    
+    .container2 form > button > p {
+        width: auto;
+        margin-block: auto;
+    }
+    
+    .container2 {
+        align-items: center;
+    }
+
+}
+
 .container2 .form-group input {
     
 width: 563px;

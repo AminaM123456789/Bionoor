@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './StyleExport.css';
-import banniere from '../images/baniere.jpg';
-import img1 from '../images/img1.jpg';
-import img2 from '../images/img2.jpg';
+import banniere from '../images/baniere.png';
+import img1 from '../images/img1.png';
+import img2 from '../images/img2.png';
 import img3 from '../images/img3.jpg';
 
 export default function Export() {
@@ -14,6 +14,7 @@ export default function Export() {
             {/* Banniere */}
             <div id='Banniere'>
                 <img id='banniere' src={banniere} alt='Banniere' />
+                <h1  id='exportText'>Export</h1>
             </div>
 
             {/* Titre */}

@@ -37,7 +37,7 @@ export default function Contact() {
       <Row className='row'>
 
         {/* Container de gauche */}
-        <Col className='container1' sm={12} lg={6} orderLast>
+        <Col className='container1' orderLast>
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13295.555947916006!2d-7.6327648!3d33.5822315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d313aa5cea01%3A0x2aea631a56760fd9!2sBIONOOR%20COSMETICS%20Morocco!5e0!3m2!1sen!2sma!4v1681751811603!5m2!1sen!2sma" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div id='frame_contacts'>
             <div id='contact'>
@@ -90,7 +90,7 @@ export default function Contact() {
 
         {/* Container de droite */}
 
-        <Col  className='container2' orderFirst>
+        <Col  className='' orderFirst>
           <div className='container2'>
             <form onSubmit={handleSubmit}>
               <div className='form-group'>
